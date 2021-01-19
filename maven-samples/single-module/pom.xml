@@ -169,5 +169,9 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
 
 </project>
