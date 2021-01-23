@@ -11,5 +11,4 @@ job('example') {
         maven('clean package','maven-samples/single-module/pom.xml')
     }
     publishers {
-        archiveArtifacts '**/*.jar'
-    }
+        archiveArtifacts '**/*.jar'}
